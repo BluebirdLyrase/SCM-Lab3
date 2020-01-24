@@ -22,7 +22,7 @@ public class Cube implements Shape {
 
     @Override
     public double area() {
-        return Math.pow(lenght, 2);
+        return Math.pow(lenght, 2)*6;
     }
     
 }
